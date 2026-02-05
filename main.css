@@ -8,7 +8,51 @@
 }
 @import "tailwindcss";
 
-@theme{
-    --font-poppins: Poppins, "sans-serif";
-    --font-ebg: EBGaramond, "sans-serif";
+/* fonts */
+
+.Poppins {
+    font-family: Poppins, "sans-serif";
+}
+
+.EBGaramond {
+    font-family: EBGaramond, "sans-serif";
+}
+:root {
+    --brown: #B68C5A;
+    --navy: #263238;
+    --dark1: #111111;
+    --dark2: #414040;
+    --dark3: #707070;
+    --dark4: #A0A0A0;
+    --dark5: #CFCFCF;
+    --dark6: #E7E7E7;
+    --dark7: #F3F3F3;
+
+}
+.brown {
+    color: var(--brown);
+}
+.navy {
+    color: var(--navy);
+}
+.dark1 {
+    color: var(--dark1);
+}
+.dark2 {
+    color: var(--dark2);
+}
+.dark3 {
+    color: var(--dark3);
+}
+.dark4 {
+    color: var(--dark4);
+}
+.dark5 {
+    color: var(--dark5);
+}
+.dark6 {
+    color: var(--dark6);
+}
+.dark7 {
+    color: var(--dark7);
 }

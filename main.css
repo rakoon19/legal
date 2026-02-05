@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Poppins;
+    src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: EBGaramond;
+    src: url("./assets/fonts/EBGaramond-Regular.ttf")
+}
+@import "tailwindcss";
+
+@theme{
+    --font-poppins: Poppins, "sans-serif";
+    --font-ebg: EBGaramond, "sans-serif";
+}
